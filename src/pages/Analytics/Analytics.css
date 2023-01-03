@@ -1,0 +1,315 @@
+:root {
+    --main-bg-color: brown;
+    --background-blocos: #FFFFFF;
+    --fundo-geral: none;
+  }
+
+.analytics{
+    width: 100%;
+    height: 100%;
+    background-color: #F9FAFB;
+
+}
+
+.analytics h1{
+    color: black;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.container{
+    display: flex;
+    background-color: var(--fundo-geral);
+}
+
+.child-l1-c12{
+    width: 740px;
+    height: 230px;
+    background-color: var(--background-blocos);
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 4px 4px 10px -8px;
+}
+
+.child-l1-c12 img{
+    width: 220px;
+    background-color: none;
+}
+
+.text-l1-c12{
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.text-l1-c12 p{
+    padding-bottom: 35px;
+}
+
+.text-l1-c12 button{
+    background-color: #7635DC;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.text-l1-c12 button:hover {
+    background-color: rgb(32, 10, 105);
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    filter: opacity(0.910);
+    box-shadow: 4px 4px 2px 2px;
+}
+
+.child{
+    width: 360px;
+    height: 230px;
+    background-color: var(--background-blocos);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url("./../../../public/tenis.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    filter: opacity(.8);
+    box-shadow: 4px 4px 10px -8px;
+}
+
+.child-l2-c123{
+    width: 360px;
+    height: 155px;
+    background-color: var(--background-blocos);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;   
+    box-shadow: 4px 4px 10px -8px;
+}
+
+.full-child-l2-c123{
+    margin: 20px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 115px;
+    align-items: center;
+    
+}
+
+.text-child-l2-c123{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 180px;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+
+.text-number{
+    background-color: none;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.text-child-l2-c123 h5{
+    color: #515961;
+}
+
+.text-child-l2-c123 div{
+    display: flex;
+    
+    
+}
+
+.chart-child-l2-c123{
+    background-color: none;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .chart-colu{
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    
+} 
+
+.child-l3-c1{
+    width: 360px;
+    height: 330px;
+    background-color: var(--background-blocos);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px -8px;
+}
+
+.child-l3-c1 h2{
+    padding-left: 20px;
+}
+
+.child-l3-c23{
+    width: 740px;
+    height: 330px;
+    background-color: var(--background-blocos);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px -8px;
+}
+
+.child-l4-c12{
+    width: 740px;
+    height: 330px;
+    background-color: var(--background-blocos);
+    box-shadow: 4px 4px 10px -8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.child-l4-c3{
+    width: 360px;
+    height: 330px;
+    background-color: var(--background-blocos);
+    box-shadow: 4px 4px 10px -8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.child-l5-c1{
+    width: 640px;
+    height: 350px;
+    background-color: var(--background-blocos);
+    box-shadow: 4px 4px 10px -8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.child-l5-c2{
+    width: 360px;
+    height: 350px;
+    background-color: var(--background-blocos);
+    box-shadow: 4px 4px 10px -8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.child-container{
+    display: flex;
+    background-color: var(--fundo-geral);
+    flex-direction: column;
+}
+
+.child-l51-3{
+    width: 460px;
+    height: 165px;
+    background-color: #431A9E;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px -8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.child-l51-3-b{
+    width: 460px;
+    height: 165px;
+    background-color: #006C9C;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px -8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    color: #fff;
+}
+
+.camp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child-container-porcent{
+    background-color: var(--fundo-geral);
+    width: 130px;
+    height: 72.5px;
+    margin-left: 20px;
+}
+
+
+.child-l51-3-text{
+    background-color: var(--fundo-geral);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.child-l51-3-text p{
+    color: #AACEDE;
+}
+
+.child-l51-3-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-l2-c123-icon{
+    background-color: #DFF3EA;
+    border-radius: 90px;
+    color: #36B37E;
+    margin-right: 6px;
+    
+}
+
+.child-l2-c123-icon-porcent{
+    margin-top: 15px;
+}
