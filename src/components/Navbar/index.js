@@ -8,7 +8,8 @@ import {
 	FaCog,
 	FaSignOutAlt,
 	FaBars,
-	FaReact
+	FaReact,
+	FaRegObjectGroup
 } from 'react-icons/fa';
 import { NavLink } from "react-router-dom";
 import "./style.css";
@@ -62,6 +63,10 @@ function Navbar({visible, show}) {
 						<NavLink to="/test" className="nav-link">
 							<FaReact className='icon' />
 							<span>Test</span> 
+						</NavLink>
+						<NavLink to="/draganddrop" className="nav-link">
+							<FaRegObjectGroup className='icon' />
+							<span>Drag and drop</span> 
 						</NavLink>
 					</div>
 				</div>
