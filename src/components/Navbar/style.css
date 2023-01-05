@@ -10,10 +10,9 @@ nav{
 	background-image: linear-gradient(90deg, #CB3C7E, #a72763, #8a0945) ;
 	background-color: #CB3C7E;
 /* #CB3C7E#FDFEFB#A188A6 */
-	/* background-image: linear-gradient(135deg,#000000,#141414,#181818,#2b2b2b); */
 	padding:2rem 1rem 1rem 1rem;
 	transition: transform 1s;
-	/* border-right: solid 1px white; */
+	 border-right: solid 1px #DFECF1; 
 	box-shadow: 4px 4px 10px -8px;
 }
 
@@ -28,22 +27,26 @@ nav{
 .nav-btn{
 	position: absolute;
 	transform: translateX(38px);
-	top: 20px;
+	top: 0px;
 	right: 0;
-	width:38px;
-	height: 40px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	width:37px;
+	height: 65px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 90px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(15deg,#000000, #4e4e4e);
+	 border-left: none; 
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	background-color: #7635DC;
 	outline: none;
 	font-size: 1rem;
 	padding: 5px 10px;
 	cursor: pointer;
 	color: #fff;
-	border: none;
+	
 	
 }
 
